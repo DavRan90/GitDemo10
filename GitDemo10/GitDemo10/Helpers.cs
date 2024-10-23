@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ExceptionServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,6 +12,14 @@ namespace GitDemo10
         public static void WriteText(string text)
         {
             Console.WriteLine(text);
+        }
+
+        public static void MyLoop()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }

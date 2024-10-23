@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Helpers.WriteText("Test");
-            
+            Helpers.MyLoop();
         }
     }
 }
